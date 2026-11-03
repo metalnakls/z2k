@@ -1814,8 +1814,8 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/script&gt;
 &lt;div id=&quot;z2k-title-preview&quot;&gt;
   &lt;div class=&quot;z2k-controls&quot;&gt;
-    &lt;div class=&quot;z2k-appearance-control&quot;&gt;&lt;label for=&quot;z2k-appearance&quot;&gt;appearance&lt;/label&gt;&lt;div class=&quot;z2k-select-slot&quot;&gt;&lt;select class=&quot;form-select&quot; id=&quot;z2k-appearance&quot;&gt;&lt;option value=&quot;system&quot;&gt;system&lt;/option&gt;&lt;option value=&quot;dark&quot;&gt;dark&lt;/option&gt;&lt;option value=&quot;light&quot;&gt;light&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&lt;/div&gt;
-    &lt;label class=&quot;form-check form-switch&quot;&gt;&lt;input class=&quot;form-check-input&quot; id=&quot;z2k-fixed&quot; type=&quot;checkbox&quot; checked&gt;&lt;span class=&quot;form-check-label&quot;&gt;titlebar fix&lt;/span&gt;&lt;/label&gt;
+    &lt;div class=&quot;z2k-select-slot&quot;&gt;&lt;select class=&quot;form-select&quot; id=&quot;z2k-appearance&quot; aria-label=&quot;appearance&quot;&gt;&lt;option value=&quot;system&quot;&gt;system theme&lt;/option&gt;&lt;option value=&quot;dark&quot;&gt;dark theme&lt;/option&gt;&lt;option value=&quot;light&quot;&gt;light theme&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;label class=&quot;form-check form-switch&quot; style=&quot;gap:12px&quot;&gt;&lt;span class=&quot;form-check-label&quot;&gt;titlebar fix&lt;/span&gt;&lt;input class=&quot;form-check-input&quot; id=&quot;z2k-fixed&quot; type=&quot;checkbox&quot; checked&gt;&lt;/label&gt;
   &lt;/div&gt;
   &lt;div class=&quot;viz-dotted-background&quot; style=&quot;padding:24px 0&quot;&gt;
     &lt;div class=&quot;z2k-window&quot; role=&quot;img&quot; aria-label=&quot;Preview of the Z2K title bar matching the header background&quot;&gt;
@@ -1830,9 +1830,8 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/div&gt;
 &lt;style&gt;
 #z2k-title-preview {box-sizing:border-box; width:100%; max-width:752px; margin-inline:auto; padding:8px}
-#z2k-title-preview .z2k-controls {display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px 24px}
-#z2k-title-preview .z2k-appearance-control {display:flex; align-items:center; gap:12px; white-space:nowrap; min-width:0; max-width:100%}
-#z2k-title-preview .z2k-select-slot {width:144px; min-width:0; flex:0 1 144px}
+#z2k-title-preview .z2k-controls {display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px}
+#z2k-title-preview .z2k-select-slot {width:180px; min-width:0; flex:0 1 180px}
 #z2k-title-preview .z2k-window :is([data-lucide], svg.lucide) {--icon-size:16px; display:block; width:16px; height:16px; flex:0 0 16px}
 #z2k-title-preview .z2k-window { --z2k-surface:light-dark(#fff,#161b22); --z2k-page:light-dark(#f6f8fa,#0f1419); --z2k-text:light-dark(#1f2328,#e6edf3); --z2k-muted:light-dark(#656d76,#8b949e); --z2k-border:light-dark(#d0d7de,#30363d); --z2k-teal:light-dark(#0f766e,#2dd4bf); --z2k-green:light-dark(#1a7f37,#3fb950); --z2k-selected:light-dark(#f0f3f6,#1f262e); color-scheme:dark; color:var(--z2k-text); background:var(--z2k-surface); border:1px solid var(--z2k-border); border-radius:20px; overflow:hidden; font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,sans-serif; font-size:14px; line-height:1.5; }
 #z2k-title-preview .z2k-titlebar { height:44px; display:flex; align-items:center; justify-content:space-between; padding:0 16px; background:var(--z2k-surface); font-size:12px; font-weight:500; }
